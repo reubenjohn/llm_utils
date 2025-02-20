@@ -1,10 +1,10 @@
 [tool.poetry]
-name = "python_template"
+name = "llm"
 version = "0.1.0"
 description = ""
 authors = ["rochacbruno"]
 readme = "README.md"
-packages = [{include = "python_template"}]
+packages = [{include = "llm"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
@@ -26,7 +26,7 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
-python_template = 'python_template.__main__:main'
+llm = 'llm.__main__:main'
 
 [tool.black]
 line-length = 100

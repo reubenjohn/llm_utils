@@ -1,4 +1,4 @@
-from python_template.sanity import sanity_check
+from llm.sanity import sanity_check
 import pytest  # type: ignore[import]
 
 
