@@ -1,10 +1,13 @@
 [tool.poetry]
 name = "llm"
-version = "0.1.0"
+version = "0.1.1"
 description = ""
 authors = ["rochacbruno"]
 readme = "README.md"
 packages = [{include = "llm"}]
+
+[tool.poetry.package]
+include = ["llm/py.typed"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
